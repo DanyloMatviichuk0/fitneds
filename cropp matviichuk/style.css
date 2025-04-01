@@ -815,13 +815,11 @@ select.input:invalid {
 		height: 180px;
 	}
 
-	.family-header{
-
+	.family-header {
 		padding-top: 80px;
 		padding-bottom: 50px;
 	}
-	.family-body{
-
+	.family-body {
 		column-gap: 12px;
 	}
 }
