@@ -819,7 +819,5 @@ select.input:invalid {
 		padding-top: 80px;
 		padding-bottom: 50px;
 	}
-	.family-body {
-		column-gap: 12px;
-	}
+
 }
