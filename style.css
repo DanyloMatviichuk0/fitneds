@@ -270,8 +270,7 @@ select.input:invalid {
 	height: 100%;
 	right: 0;
 	aspect-ratio: 1;
-	background: url(./icons/arrow-top-right.svgvercel) center/70%
-		no-repeat;
+	background: url(./icons/arrow-top-right.svgvercel) center/70% no-repeat;
 	border: var(--border);
 	border-radius: 50%;
 }
@@ -674,12 +673,27 @@ select.input:invalid {
 .family-image {
 	scroll-snap-align: start;
 }
+.calculate {
+	padding-block:146px ;
+	background-color: var(--color-dark-alternate);
+}
+.calculate-inner{
+	display: flex;
+	align-items: center;
+	column-gap: 36px;
+}
+.calculate-body{
+
+	min-width: 627px;
+}
 
 @media (max-width: 1919px) {
 	.motivation-card-image {
 		margin-block: -20px;
 	}
+	
 }
+
 @media (max-width: 1280px) {
 	.training-types-list {
 		grid-template-columns: repeat(3, 1fr);
